@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #782424;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.logo span {
+    color: rgb(172, 71, 71);; /* Set your preferred accent color */
+}
+
+.signup-form {
+    max-width: 420px;
+    margin: 2em auto;
+    background: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #782424;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #782424;
+    border-radius: 4px;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #782424;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -1.5em;
+    left: 0;
+    color: #782424;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    background: #782424;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background: #555;
+}
+
+p {
+    text-align: center;
+    margin-top: 1em;
+    color: #782424;
+}
+
+a {
+    color: #782424;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(172, 71, 71);
+}
